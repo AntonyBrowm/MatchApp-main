@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+  font-family: "Monserrat", sans-serif;
+  background: rgba(20, 28, 70,1);
+  background: linear-gradient(45deg, rgba(20, 28, 70,1) 0%, rgba(20, 28, 70,1) 80%, rgba(116, 77, 186, 1) 100%);
+}
+body {
+  margin:0;
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.elevation-20 {
+  box-shadow: 1.6px 3.2px 3.2px rgba(0, 0, 0, 0.45);
+}
+
+.elevation-40 {
+  box-shadow: 3.2px 6.4px 6.4px rgba(0, 0, 0, 0.4);
+}
+
+.elevation-60 {
+  box-shadow: 4.8px 9.6px 9.6px rgba(0, 0, 0, 0.35);
+}
+
+.elevation-80 {
+  box-shadow: 6.4px 12.8px 12.8px rgba(0, 0, 0, 0.3);
+}
+
+.elevation-100 {
+  box-shadow: 8px 16px 16px rgba(0, 0, 0, 0.25);
+}
+a,
+p,
+span,
+button {
+  font-family: "Monserrat", sans-serif;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+root,
+body {
+  width: 100%;
+  background: rgba(20, 28, 70,1);
+  background: linear-gradient(45deg, rgba(20, 28, 70,1) 0%, rgba(20, 28, 70,1) 80%, rgba(116, 77, 186, 1) 100%);
+}
+
+.container  {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 80%;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #ffffff;}
+
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  font-family: 'Merriweather', serif;
+  height: max-content;
+  width: 100%;
+  height: 100%;
+
+}
+
+h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 300;
+}

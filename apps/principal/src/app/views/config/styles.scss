@@ -1,0 +1,21 @@
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+
+  .chats-container {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0px;
+  }
+
+  .carrousel-container {
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+    padding: 0px;
+    overflow: hidden;
+  }
+}

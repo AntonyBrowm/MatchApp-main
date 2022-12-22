@@ -1,0 +1,62 @@
+/* Your styles goes here. */
+.card-profile-container{
+  height: auto;
+  padding: 10%;
+  display: flex;
+  background-color: rgb(207, 189, 189);
+  border-bottom: 1px #d1d1d1 ;
+  background-color: var(--activitie-container);
+  transition: background-color 0.3s;
+  &:hover {
+    cursor: pointer;
+    background-color: var(--activitie-container-hover);
+  }
+}
+
+.image-container{
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  width: 200px;
+  height: 200;
+  border-color: #509db4;
+  border-style: solid;
+  border-width: 3px;
+  transition: none;
+  max-width: 100%;
+  border-radius: 50%;
+    padding: 0.625rem;
+}
+.bio-profile-container{
+  margin-left: 40px;
+}
+.title-name{
+  color: white;
+}
+.title-bio{
+  color: whitesmoke;
+}
+.activitie-container{
+  width: fit-content;
+  height:  20px;
+  max-width: 100%;
+  vertical-align: top;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(24, 34, 84);
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.list-container{
+  display: flex;
+}
+.bio-profile-container{
+  padding: 10px;
+}
